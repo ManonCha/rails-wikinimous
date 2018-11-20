@@ -1,0 +1,13 @@
+<div class="articles">
+  <h1 >All your articles are here !</h1>
+  <ul>
+    <% @articles.each do |article| %>
+      <li>
+        <p><strong><%= article.title %></strong>
+        <%= link_to("see article", article_path(article))%>
+        </p>
+      </li>
+    <% end %>
+  </ul>
+  <%= link_to('create your own article', new_article_path, class: "btn-create") %>
+</div>

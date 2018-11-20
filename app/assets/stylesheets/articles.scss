@@ -1,0 +1,50 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+h1 {
+  color: #e00543 !important;
+}
+
+body {
+  background-color: #fdf1db !important;
+  padding: 30px;
+  // text-align: center !important;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+#btn-submit {
+  border-radius: 5px;
+  box-shadow: 2px;
+  background-color: #a6cb12;
+  width: 100px;
+  text-align: center !important;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+.articles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  ul {
+    padding-left: 0px;
+    li {
+      text-align: center
+    }
+  }
+}
+
+.btn-create {
+  padding: 10px;
+  background-color: red;
+  border-radius: 10px;
+}
