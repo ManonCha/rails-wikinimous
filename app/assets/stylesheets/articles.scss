@@ -19,18 +19,6 @@ h1 {
   text-align: center;
 }
 
-#btn-submit {
-  border-radius: 5px;
-  box-shadow: 2px;
-  background-color: #a6cb12;
-  width: 100px;
-  text-align: center !important;
-}
-
-.link {
-  color: white;
-  text-decoration: none;
-}
 .articles {
   display: flex;
   flex-direction: column;
@@ -45,6 +33,11 @@ h1 {
 
 .btn-create {
   padding: 10px;
-  background-color: red;
+  background-color: #E00543;
   border-radius: 10px;
+  color: white;
+}
+
+a {
+  color: #84253e;
 }
